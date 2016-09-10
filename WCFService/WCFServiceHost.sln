@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService", "WCFServiceHost\WCFService.csproj", "{78DE6727-0A30-48B2-BBB6-1A7B0138BBBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECFServiceHost", "ECFServiceHost\ECFServiceHost.csproj", "{F414FD1A-DF80-4B29-B1AE-546FA4500DCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78DE6727-0A30-48B2-BBB6-1A7B0138BBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DE6727-0A30-48B2-BBB6-1A7B0138BBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DE6727-0A30-48B2-BBB6-1A7B0138BBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DE6727-0A30-48B2-BBB6-1A7B0138BBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F414FD1A-DF80-4B29-B1AE-546FA4500DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F414FD1A-DF80-4B29-B1AE-546FA4500DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F414FD1A-DF80-4B29-B1AE-546FA4500DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F414FD1A-DF80-4B29-B1AE-546FA4500DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
