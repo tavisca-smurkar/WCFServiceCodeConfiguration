@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WCFService
 {
-    [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerSession)]
     public class CounterService : ICounterService
     {
         int counter = 0;
