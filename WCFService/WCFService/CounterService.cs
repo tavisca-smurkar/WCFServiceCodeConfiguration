@@ -13,7 +13,7 @@ namespace WCFService
         int counter = 0;
         public int IncrementNumber()
         {
-            return counter++;
+            return ++counter;
         }
     }
 }

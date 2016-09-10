@@ -51,8 +51,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WCFServiceHost\WCFService.csproj">
-      <Project>{78DE6727-0A30-48B2-BBB6-1A7B0138BBBB}</Project>
+    <ProjectReference Include="..\WCFService\WCFService.csproj">
+      <Project>{78de6727-0a30-48b2-bbb6-1a7b0138bbbb}</Project>
       <Name>WCFService</Name>
     </ProjectReference>
   </ItemGroup>

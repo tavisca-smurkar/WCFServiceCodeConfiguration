@@ -12,7 +12,7 @@ namespace ECFServiceHost
     {
         static void Main(string[] args) 
         {
-            ServiceHost host = new ServiceHost("CounterService");
+            ServiceHost host = new ServiceHost(typeof(CounterService));
             host.Open();
             Console.WriteLine("Service is started at {0}", DateTime.Now);
             Console.ReadLine();
